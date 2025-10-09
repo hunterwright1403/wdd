@@ -1,25 +1,33 @@
-body {
+/* body {
     text-align: center;
 }
+
 nav {
     background-color: steelblue;
     padding: 10px;
-}
+}*/
+
 a {
     color: white;
     margin: 40px;
+    font-size: 1.5em;
 }
+
 h1 {
   color: steelblue;
 }
-img {
-  width: 800px;
+
+/*img {
+  width: 80%;
+  max-width: 800px;
   border: 4px solid steelblue;
-}
+}*/
+
 p {
   padding: 10px;
 }
-footer {
+
+/*footer {
   background-color: steelblue;
   color: white;
 }
@@ -27,9 +35,41 @@ footer {
 .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
-}
+}*/
 
 #active {
+  background-color: white;
+  color: steelblue;
+}
+
+
+
+* {
+  border: 2px solid blue;
+}
+nav, footer {
+  text-align: center;
+}
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+main p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+nav, footer {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
   background-color: white;
   color: steelblue;
 }
