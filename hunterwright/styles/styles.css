@@ -1,3 +1,165 @@
+/* CSS or Hunter Wright Website */
+
+/* Overall Layout */
+body {
+  background-color: #bec6b1;
+}
+
+/* Header */
+.hwlogo {
+  width: 120px;
+  float: inline-start;
+  margin: 15px;
+}
+
+header {
+  height: 150px;
+  background-color: gray;
+}
+
+nav {
+  position: absolute;
+  top: 8.3%;
+  right: 5%;
+}
+
+/* Navigation Buttons */
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fdfbf4;
+  background-color: #344E41;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 1em;
+}
+.button:hover {background-color: #588157}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} /* End of navigation buttons  */
+/* End of Header */
+
+/* Footer */
+footer {
+  background-color: gray;
+  font-size: 30px;
+  color: #fdfbf4;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  width: 64px;
+}
+/* End of Footer */
+/* End of Overall Layout */
+
+/* Home Page */
+#homemain {
+  margin: 50px;
+  background-color: #fdfbf4;
+}
+
+/* Section 1 */
+#homesection1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 50px;
+}
+
+.left_half {
+  grid-column: 1/2;
+  justify-items: center;
+  }
+
+.right_half {
+  grid-column: 2/3;
+  place-items: center;
+}
+
+.profilepic {
+  width: 90%;
+}
+
+#name {
+  font-size: 4.5vw;
+  margin-top: 20%;
+}
+
+.subtitle {
+  font-size: 2vw;
+}
+
+#downloadBtn {
+  background-color: #344E41;
+  color: #fdfbf4;
+  /* padding: 15px 25px; */
+padding: 1vw 2vw;
+  font-size: 1.8vw;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 1vw;
+  box-shadow: 0 9px #999;
+  margin: 1em;
+}
+#downloadBtn:hover {background-color: #588157}
+#downloadBtn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* About Me Mid Part */
+#aboutmetitle {
+  text-align: center;
+  font-size: 4vw;
+  margin-top: 50px;
+}
+
+/* Section 2 */
+#homesection2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#homesection2 .right_half {
+  font-size: 1.9vw;
+  padding: 30px;
+  justify-items: center;
+}
+
+.marriagepic {
+  grid-column: 1/2;
+  width: 100%;
+}
+
+#homesection3 {
+  padding: 20px 100px;
+}
+
+#skills {
+  font-size: 2.5vw;
+}
+
+#listofskills {
+  font-size: 2vw;
+}
+/* End of Home Page */
+
+/* Education and Work Page */
+
+/* Portfolio Page */
 
 /* Portfolio image overlay slide */
 .container {

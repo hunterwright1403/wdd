@@ -8,56 +8,70 @@
 </head>
 <body>
     <header>
-        <img src="images/hunterlogo_rsz.png" alt="">
+        <img class="hwlogo" src="images/hunterlogo_rsz.png" alt="">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="education_and_work.html">Education and Work</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contactme.html">Contact Me</a>
+            <a class="button" href="index.html">Home</a>
+            <a class="button" href="education_and_work.html">Education and Work</a>
+            <a class="button" href="portfolio.html">Portfolio</a>
+            <a class="button" href="contactme.html">Contact Me</a>
         </nav>
     </header>
-    <main>
-        <section>
-            <h2>Hunter Wright</h2>
-            <!-- Line -->
-            <p>Mechanical Engineering Student</p>
-            <div>
-                <button id="downloadBtn">Download Resume</button>
-                <script>
-                    document.getElementById('downloadBtn').addEventListener('click', function () {
-                        const link = document.createElement('a');
-                        link.href = 'resume.pdf'; // Replace with your file URL
-                        link.download = 'resume.pdf'; // Desired filename
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-                    });
-                </script>
+    <main id="homemain">
+        <section id="homesection1">
+            <div class="left_half">
+                <h2 id="name">Hunter Wright</h2>
+                <!-- Line -->
+                <hr width="20%" color="black" size="4">
+                <p class="subtitle">Mechanical Engineering Student</p>
+                <div>
+                    <button id="downloadBtn">Download Resume</button>
+                    <script>
+                        document.getElementById('downloadBtn').addEventListener('click', function () {
+                            const link = document.createElement('a');
+                            link.href = 'resume.pdf'; // Replace with your file URL
+                            link.download = 'resume.pdf'; // Desired filename
+                            document.body.appendChild(link);
+                            link.click();
+                            document.body.removeChild(link);
+                        });
+                    </script>
+                </div>
             </div>
-            <img src="images/profile_pic.jpg" alt="profile picture">
+            <div class="right_half">
+                <img class="profilepic" src="images/profile_pic.jpg" alt="profile picture">
+            </div>
         </section>
-        <section>
-            <h1>About Me</h1>
-            <img src="images/marriage_pic.JPG" alt="wedding photo">
-            <p>Age: 22</p>
-            <p>From: Austin Texas</p>
+        <h1 id="aboutmetitle">About Me</h1>
+        <section id="homesection2">
+            <div class="left_half">
+                <img class="marriagepic" src="images/marriage_pic.JPG" alt="wedding photo">
+            </div>
+            <div class="right_half">
+                <p class="aboutmepara">I'm from Austin Texas, but I've lived in North Carolina, Washington State, California, Ireland, Idaho, Maryland, and The Phlilppines.</p>
+                <p class="aboutmepara">I'm 22 years old. I am in my 3rd year of college at Brigham Young University - Idaho studying mechanical engineering.</p>
+            </div>
         </section>
-        <section>
-            <h2>Skills and Achievements</h2>
-            <p>
-                list skills here
-            </p>
+        <section id="homesection3">
+            <h2 id="skills">Skills and Achievements</h2>
+            <div id="listofskills">
+                <p>• Communication skills such as following directions, accountability, and problem solving</p>
+                <p>• Technical Drafting, AutoCAD, SolidWorks, Photoshop</p>
+                <p>• Basic programming in HTML, CSS, and Python</p>
+                <p>• Earned the rank of Eagle Scout at 14 years old</p>
+                <p>• Hiked the highest peak in the lower 48 states, Mt. Whitney</p>
+                <p>• Interests: Guitar, Hiking, Mountain Biking, Photography, Tagalog</p>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Hunter Wright &copy; 2025</p>
-            <p><a href="contactus.html">Contact Us</a></p>
+        <p>Hunter Wright Personal Site 2025</p>
+            <p><a class="button" href="contactus.html">Contact Me</a></p>
             <div class="social">
                 <a href="https://www.linkedin.com/in/hunter-wright-a755bb223">
-                    <img src="images/linkedin_logo.jpg" alt="linkedin logo">
+                    <img class="link" src="images/linkedin_logo.jpg" alt="linkedin logo">
                 </a>
                 <a href="https://www.facebook.com/hunter.wright.840762/">
-                    <img src="images/facebook.png" alt="facebook icon">
+                    <img class="link" src="images/facebook.png" alt="facebook icon">
                 </a>
             </div>
     </footer>
