@@ -10,19 +10,22 @@ body {
 /* Header */
 .hwlogo {
   width: 120px;
-  float: inline-start;
   margin: 15px;
+  justify-self: left;
+  align-self: center;
 }
 
 header {
   height: 150px;
   background-color: gray;
+  display: grid;
+  grid-template-columns: 150px 1fr;
 }
 
 nav {
-  position: absolute;
-  top: 8.3%;
-  right: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-self: center;
 }
 
 /* Navigation Buttons */
@@ -39,6 +42,7 @@ nav {
   box-shadow: 0 9px #999;
   margin: 1em;
   font-family: "Josefin Sans";
+
 }
 .button:hover {background-color: #588157}
 .button:active {
@@ -63,6 +67,30 @@ footer {
 
 .link {
   width: 64px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 8px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
 /* End of Footer */
 /* End of Overall Layout */
@@ -211,4 +239,26 @@ footer {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+        flex-direction: column;
+    }
+  nav a {
+        display: block;
+        padding: 15px;
+    }
+  .button {
+    margin: 10px;
+  }
+  header {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 975px) {
+  footer {
+        flex-direction: column;
+    }
 }
