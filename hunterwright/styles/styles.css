@@ -244,7 +244,7 @@ footer {
 }
 
 .role {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   font-weight: bold;
   grid-column: 2/3;
   grid-row: 1/2;
@@ -256,7 +256,7 @@ footer {
 }
 
 .company {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   font-style: italic;
   grid-column: 2/3;
   grid-row: 2/3;
@@ -266,7 +266,7 @@ footer {
 }
 
 .dates {
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   grid-column: 3/4;
   grid-row: 1/2;
   text-align: right;
@@ -276,7 +276,7 @@ footer {
 }
 
 .location{
-  font-size: 2.2vw;
+  font-size: 2.1vw;
   font-style: italic;
   grid-column: 3/4;
   grid-row: 2/3;
