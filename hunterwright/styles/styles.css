@@ -219,16 +219,20 @@ footer {
   margin: 50px;
   padding: 10px;
   background-color: #fdfbf4;
+  font-family: "Josefin Sans";
+  font-weight: bold;
 }
 
 .educationtitles {
   margin: 15px;
   text-decoration: underline;
+  font-family: "Amaranth";
 }
 
 .subtitleeducation {
   font-size: 3.5vw;
   text-align: center;
+  font-family: "Amaranth";
 }
 
 .picture {
