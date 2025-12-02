@@ -132,9 +132,10 @@ footer {
   font-size: 4.5vw;
   margin-top: 20%;
   font-family: "Amaranth";
+  letter-spacing: 2px;
 }
 
-.subtitle {
+.subtitlehome {
   font-size: 2vw;
   font-family: "Josefin Sans";
 }
@@ -167,6 +168,7 @@ footer {
   font-size: 4vw;
   margin-top: 50px;
   font-family: "Amaranth";
+  letter-spacing: 2px;
 }
 
 /* Section 2 */
@@ -177,9 +179,14 @@ footer {
 
 #homesection2 .right_half {
   font-size: 1.9vw;
-  padding: 30px;
+  padding: 0px 30px;
   justify-items: center;
   font-family: "Josefin Sans";
+  align-self: center;
+}
+
+.aboutmepara {
+  line-height: 3vw;
 }
 
 .marriagepic {
@@ -189,7 +196,7 @@ footer {
 }
 
 #homesection3 {
-  padding: 20px 100px;
+  padding: 20px 5vw;
 }
 
 #skills {
@@ -203,9 +210,147 @@ footer {
 }
 /* End of Home Page */
 
+
+
+
 /* Education and Work Page */
+/* Main Section */
+#educationmain {
+  margin: 50px;
+  padding: 10px;
+  background-color: #fdfbf4;
+}
+
+.educationtitles {
+  margin: 15px;
+  text-decoration: underline;
+}
+
+.subtitleeducation {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.picture {
+  width: 90%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  align-self: center;
+  justify-self: center;
+}
+
+.role {
+  font-size: 2.2vw;
+  font-weight: bold;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  text-align: left;
+  padding-left: 5px;
+  align-content: top;
+  margin: 0;
+  align-content: center;
+}
+
+.company {
+  font-size: 2.2vw;
+  font-style: italic;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: left;
+  padding-left: 5px;
+  margin: 0;
+}
+
+.dates {
+  font-size: 2.2vw;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  text-align: right;
+  padding-right: 5px;
+  margin: 0;
+  align-content: center;
+}
+
+.location{
+  font-size: 2.2vw;
+  font-style: italic;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  text-align: right;
+  padding-right: 5px;
+  margin: 0;
+}
+
+.bulletpoints {
+  font-size: 2.2vw;
+  padding: 0px 30px;
+}
+
+/* Education Section */
+.educationtitles {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.byuiinfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 7vw 7vw;
+}
+
+#extracreditinfo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 30px 12vw;
+}
+
+#extracreditinfo .role {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  padding-left: 30px;
+}
+
+#extracreditinfo .bulletpoints {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.sign {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  width: 100%;
+}
+
+/* Work Section */
+.jobinfo {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 5vw 5vw;
+}
+
+.deltamillworks .dates {
+  grid-column: 2/4;
+}
+
+.transitionyear, .lupetortilla, .deltamillworks, .moxiepestcontrol{
+  margin-bottom: 30px;
+}
+
+/* Volunteer Work */
+
+.mission .bulletpoints {
+  padding-top: 25px;
+}
+
+.mission .dates {
+  grid-column: 2/4;
+}
 
 /* Portfolio Page */
+
+#portfoliomain {
+  margin: 50px;
+}
 
 /* Portfolio image overlay slide */
 .container {
