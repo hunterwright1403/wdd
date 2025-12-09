@@ -170,6 +170,7 @@ footer {
   margin-top: 50px;
   font-family: "Amaranth";
   letter-spacing: 2px;
+  grid-column: 1/3;
 }
 
 /* Section 2 */
