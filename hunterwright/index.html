@@ -22,20 +22,9 @@
             <div class="left_half">
                 <h2 id="name">Hunter Wright</h2>
                 <!-- Line -->
-                <hr width="20%" color="black" size="4">
                 <p class="subtitlehome">Mechanical Engineering Student</p>
                 <div>
-                    <button id="downloadBtn">Download Resume</button>
-                    <script>
-                        document.getElementById('downloadBtn').addEventListener('click', function () {
-                            const link = document.createElement('a');
-                            link.href = 'resume.pdf'; // Replace with your file URL
-                            link.download = 'resume.pdf'; // Desired filename
-                            document.body.appendChild(link);
-                            link.click();
-                            document.body.removeChild(link);
-                        });
-                    </script>
+                    <a id="downloadBtn" href="resume.pdf" download="resume.pdf">Download Resume</a>
                 </div>
             </div>
             <div class="right_half">
@@ -74,3 +63,4 @@
     </footer>
 </body>
 </html>
+
